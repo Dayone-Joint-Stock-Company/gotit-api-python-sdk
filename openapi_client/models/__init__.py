@@ -1,0 +1,72 @@
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from openapi_client.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from openapi_client.model.brandcategorydetail import BRANDCATEGORYDETAIL
+from openapi_client.model.brandcategorydetailresponse import BRANDCATEGORYDETAILRESPONSE
+from openapi_client.model.branddetail import BRANDDETAIL
+from openapi_client.model.branddetailresponse import BRANDDETAILRESPONSE
+from openapi_client.model.brandreedemschema import BRANDREEDEMSCHEMA
+from openapi_client.model.brandsdetail import BRANDSDETAIL
+from openapi_client.model.brandsresponse import BRANDSRESPONSE
+from openapi_client.model.categoriesdetail import CATEGORIESDETAIL
+from openapi_client.model.categoriesresponse import CATEGORIESRESPONSE
+from openapi_client.model.groupvoucherschema import GROUPVOUCHERSCHEMA
+from openapi_client.model.httpbadrequest import HTTPBADREQUEST
+from openapi_client.model.httpinternalservererror import HTTPINTERNALSERVERERROR
+from openapi_client.model.httpnotfound import HTTPNOTFOUND
+from openapi_client.model.httpunauthorized import HTTPUNAUTHORIZED
+from openapi_client.model.productdefaultlinkg import PRODUCTDEFAULTLINKG
+from openapi_client.model.productdetail import PRODUCTDETAIL
+from openapi_client.model.productdetailresponse import PRODUCTDETAILRESPONSE
+from openapi_client.model.productg import PRODUCTG
+from openapi_client.model.productpriceschema import PRODUCTPRICESCHEMA
+from openapi_client.model.productsdefaultlinkg import PRODUCTSDEFAULTLINKG
+from openapi_client.model.productsdetail import PRODUCTSDETAIL
+from openapi_client.model.productsresponse import PRODUCTSRESPONSE
+from openapi_client.model.productsresponse_data_inner import PRODUCTSRESPONSEDataInner
+from openapi_client.model.productsvouchercheck import PRODUCTSVOUCHERCHECK
+from openapi_client.model.productv import PRODUCTV
+from openapi_client.model.productvendorlinkg import PRODUCTVENDORLINKG
+from openapi_client.model.requestcheckstatuszns import REQUESTCHECKSTATUSZNS
+from openapi_client.model.requestcreatevoucherlinke import REQUESTCREATEVOUCHERLINKE
+from openapi_client.model.requestcreatevoucherlinkg import REQUESTCREATEVOUCHERLINKG
+from openapi_client.model.requestcreatevoucherlinkv import REQUESTCREATEVOUCHERLINKV
+from openapi_client.model.requestsendvoucherbyemail import REQUESTSENDVOUCHERBYEMAIL
+from openapi_client.model.requestsendvoucherbysms import REQUESTSENDVOUCHERBYSMS
+from openapi_client.model.requestsendvoucherbyzns import REQUESTSENDVOUCHERBYZNS
+from openapi_client.model.storepagingschema import STOREPAGINGSCHEMA
+from openapi_client.model.storeproductschema import STOREPRODUCTSCHEMA
+from openapi_client.model.storesresponse import STORESRESPONSE
+from openapi_client.model.storesresponse_data_inner import STORESRESPONSEDataInner
+from openapi_client.model.storesschema import STORESSCHEMA
+from openapi_client.model.usagemethodschema import USAGEMETHODSCHEMA
+from openapi_client.model.vendorschema import VENDORSCHEMA
+from openapi_client.model.vouchercheckresponse import VOUCHERCHECKRESPONSE
+from openapi_client.model.vouchercheckschema import VOUCHERCHECKSCHEMA
+from openapi_client.model.vouchercheckschemadetail import VOUCHERCHECKSCHEMADETAIL
+from openapi_client.model.vouchercheckznsresponse import VOUCHERCHECKZNSRESPONSE
+from openapi_client.model.vouchercheckznsresponse_data import VOUCHERCHECKZNSRESPONSEData
+from openapi_client.model.vouchere import VOUCHERE
+from openapi_client.model.vouchereresponse import VOUCHERERESPONSE
+from openapi_client.model.vouchereschema import VOUCHERESCHEMA
+from openapi_client.model.voucherg import VOUCHERG
+from openapi_client.model.vouchergresponse import VOUCHERGRESPONSE
+from openapi_client.model.vouchergschema import VOUCHERGSCHEMA
+from openapi_client.model.vouchersendemailresponse import VOUCHERSENDEMAILRESPONSE
+from openapi_client.model.vouchersendemailschema import VOUCHERSENDEMAILSCHEMA
+from openapi_client.model.vouchersendsmsresponse import VOUCHERSENDSMSRESPONSE
+from openapi_client.model.vouchersendsmsschema import VOUCHERSENDSMSSCHEMA
+from openapi_client.model.vouchersendznsresponse import VOUCHERSENDZNSRESPONSE
+from openapi_client.model.vouchersendznsresponse_data import VOUCHERSENDZNSRESPONSEData
+from openapi_client.model.voucherv import VOUCHERV
+from openapi_client.model.vouchervresponse import VOUCHERVRESPONSE
+from openapi_client.model.vouchervschema import VOUCHERVSCHEMA
+from openapi_client.model.vouchervschema_vouchers import VOUCHERVSCHEMAVouchers
