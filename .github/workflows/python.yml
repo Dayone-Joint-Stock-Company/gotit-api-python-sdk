@@ -3,7 +3,7 @@
 #
 # ref: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: gotit_api_sdk_python Python package
+name: gotit_api_python_sdk Python package
 
 on: [push, pull_request]
 
@@ -28,4 +28,4 @@ jobs:
           pip install -r test-requirements.txt
       - name: Test with pytest
         run: |
-          pytest --cov=gotit_api_sdk_python
+          pytest --cov=gotit_api_python_sdk

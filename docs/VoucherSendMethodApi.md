@@ -1,4 +1,4 @@
-# gotit_api_sdk_python.VoucherSendMethodApi
+# gotit_api_python_sdk.VoucherSendMethodApi
 
 All URIs are relative to *https://api-biz-stg.gotit.vn*
 
@@ -21,25 +21,25 @@ Check status zns
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.requestcheckstatuszns import REQUESTCHECKSTATUSZNS
-from gotit_api_sdk_python.models.vouchercheckznsresponse import VOUCHERCHECKZNSRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.requestcheckstatuszns import REQUESTCHECKSTATUSZNS
+from gotit_api_python_sdk.models.vouchercheckznsresponse import VOUCHERCHECKZNSRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.VoucherSendMethodApi(api_client)
+    api_instance = gotit_api_python_sdk.VoucherSendMethodApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
-    requestcheckstatuszns = gotit_api_sdk_python.REQUESTCHECKSTATUSZNS() # REQUESTCHECKSTATUSZNS |  (optional)
+    requestcheckstatuszns = gotit_api_python_sdk.REQUESTCHECKSTATUSZNS() # REQUESTCHECKSTATUSZNS |  (optional)
 
     try:
         # Check status zns
@@ -96,25 +96,25 @@ Send voucher by mail
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.requestsendvoucherbyemail import REQUESTSENDVOUCHERBYEMAIL
-from gotit_api_sdk_python.models.vouchersendemailresponse import VOUCHERSENDEMAILRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.requestsendvoucherbyemail import REQUESTSENDVOUCHERBYEMAIL
+from gotit_api_python_sdk.models.vouchersendemailresponse import VOUCHERSENDEMAILRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.VoucherSendMethodApi(api_client)
+    api_instance = gotit_api_python_sdk.VoucherSendMethodApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
-    requestsendvoucherbyemail = gotit_api_sdk_python.REQUESTSENDVOUCHERBYEMAIL() # REQUESTSENDVOUCHERBYEMAIL |  (optional)
+    requestsendvoucherbyemail = gotit_api_python_sdk.REQUESTSENDVOUCHERBYEMAIL() # REQUESTSENDVOUCHERBYEMAIL |  (optional)
 
     try:
         # Send voucher by mail
@@ -171,25 +171,25 @@ Send voucher by sms
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.requestsendvoucherbysms import REQUESTSENDVOUCHERBYSMS
-from gotit_api_sdk_python.models.vouchersendsmsresponse import VOUCHERSENDSMSRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.requestsendvoucherbysms import REQUESTSENDVOUCHERBYSMS
+from gotit_api_python_sdk.models.vouchersendsmsresponse import VOUCHERSENDSMSRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.VoucherSendMethodApi(api_client)
+    api_instance = gotit_api_python_sdk.VoucherSendMethodApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
-    requestsendvoucherbysms = gotit_api_sdk_python.REQUESTSENDVOUCHERBYSMS() # REQUESTSENDVOUCHERBYSMS | 
+    requestsendvoucherbysms = gotit_api_python_sdk.REQUESTSENDVOUCHERBYSMS() # REQUESTSENDVOUCHERBYSMS | 
 
     try:
         # Send voucher by sms
@@ -246,25 +246,25 @@ Send voucher by zns
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.requestsendvoucherbyzns import REQUESTSENDVOUCHERBYZNS
-from gotit_api_sdk_python.models.vouchersendznsresponse import VOUCHERSENDZNSRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.requestsendvoucherbyzns import REQUESTSENDVOUCHERBYZNS
+from gotit_api_python_sdk.models.vouchersendznsresponse import VOUCHERSENDZNSRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.VoucherSendMethodApi(api_client)
+    api_instance = gotit_api_python_sdk.VoucherSendMethodApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
-    requestsendvoucherbyzns = gotit_api_sdk_python.REQUESTSENDVOUCHERBYZNS() # REQUESTSENDVOUCHERBYZNS |  (optional)
+    requestsendvoucherbyzns = gotit_api_python_sdk.REQUESTSENDVOUCHERBYZNS() # REQUESTSENDVOUCHERBYZNS |  (optional)
 
     try:
         # Send voucher by zns

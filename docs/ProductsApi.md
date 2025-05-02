@@ -1,4 +1,4 @@
-# gotit_api_sdk_python.ProductsApi
+# gotit_api_python_sdk.ProductsApi
 
 All URIs are relative to *https://api-biz-stg.gotit.vn*
 
@@ -20,22 +20,22 @@ Returns all products master data
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.productsresponse import PRODUCTSRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.productsresponse import PRODUCTSRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.ProductsApi(api_client)
+    api_instance = gotit_api_python_sdk.ProductsApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
     page = 1 # int | Page
     page_size = 200 # int | Page Size
@@ -106,22 +106,22 @@ Returns product detail data
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.productdetailresponse import PRODUCTDETAILRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.productdetailresponse import PRODUCTDETAILRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.ProductsApi(api_client)
+    api_instance = gotit_api_python_sdk.ProductsApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
     id = 1541 # int | Product ID
     is_exclude_store_list_info = true # bool | Exclude store list information (optional)
@@ -186,22 +186,22 @@ Returns all stores of this product
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.storesresponse import STORESRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.storesresponse import STORESRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.ProductsApi(api_client)
+    api_instance = gotit_api_python_sdk.ProductsApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
     id = 1541 # int | Product ID
 

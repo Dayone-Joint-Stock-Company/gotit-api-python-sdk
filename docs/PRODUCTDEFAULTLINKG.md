@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from gotit_api_sdk_python.models.productdefaultlinkg import PRODUCTDEFAULTLINKG
+from gotit_api_python_sdk.models.productdefaultlinkg import PRODUCTDEFAULTLINKG
 
 # TODO update the JSON string below
 json = "{}"

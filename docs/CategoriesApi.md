@@ -1,4 +1,4 @@
-# gotit_api_sdk_python.CategoriesApi
+# gotit_api_python_sdk.CategoriesApi
 
 All URIs are relative to *https://api-biz-stg.gotit.vn*
 
@@ -19,22 +19,22 @@ Returns all categories data master
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.categoriesresponse import CATEGORIESRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.categoriesresponse import CATEGORIESRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.CategoriesApi(api_client)
+    api_instance = gotit_api_python_sdk.CategoriesApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
 
     try:
@@ -91,22 +91,22 @@ Returns all categories data master
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.categoriesresponse import CATEGORIESRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.categoriesresponse import CATEGORIESRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.CategoriesApi(api_client)
+    api_instance = gotit_api_python_sdk.CategoriesApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
 
     try:

@@ -26,7 +26,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from gotit_api_sdk_python.models.vouchercheckschemadetail import VOUCHERCHECKSCHEMADETAIL
+from gotit_api_python_sdk.models.vouchercheckschemadetail import VOUCHERCHECKSCHEMADETAIL
 
 # TODO update the JSON string below
 json = "{}"

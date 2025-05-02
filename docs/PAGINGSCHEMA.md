@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from gotit_api_sdk_python.models.pagingschema import PAGINGSCHEMA
+from gotit_api_python_sdk.models.pagingschema import PAGINGSCHEMA
 
 # TODO update the JSON string below
 json = "{}"

@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from gotit_api_sdk_python.models.requestsendvoucherbyemail import REQUESTSENDVOUCHERBYEMAIL
+from gotit_api_python_sdk.models.requestsendvoucherbyemail import REQUESTSENDVOUCHERBYEMAIL
 
 # TODO update the JSON string below
 json = "{}"

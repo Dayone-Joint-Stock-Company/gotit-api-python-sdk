@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from gotit_api_sdk_python.models.storeproductschema import STOREPRODUCTSCHEMA
+from gotit_api_python_sdk.models.storeproductschema import STOREPRODUCTSCHEMA
 
 # TODO update the JSON string below
 json = "{}"

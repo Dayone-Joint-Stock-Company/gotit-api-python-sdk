@@ -21,7 +21,7 @@ from setuptools import setup, find_packages  # noqa: H301
 #
 # prerequisite: setuptools
 # http://pypi.python.org/pypi/setuptools
-NAME = "gotit-api-sdk-python"
+NAME = "gotit-api-python-sdk"
 VERSION = "1.0.0"
 PYTHON_REQUIRES = ">= 3.8"
 REQUIRES = [
@@ -47,5 +47,5 @@ setup(
     long_description="""\
     Technical document APIs for API Version 4.
     """,  # noqa: E501
-    package_data={"gotit_api_sdk_python": ["py.typed"]},
+    package_data={"gotit_api_python_sdk": ["py.typed"]},
 )

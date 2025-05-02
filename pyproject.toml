@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "gotit_api_sdk_python"
+name = "gotit_api_python_sdk"
 version = "1.0.0"
 description = "Sample API"
 authors = ["OpenAPI Generator Community <quang.huynh@gotit.vn>"]
@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 repository = "https://github.com/GIT_USER_ID/GIT_REPO_ID"
 keywords = ["OpenAPI", "OpenAPI-Generator", "Sample API"]
-include = ["gotit_api_sdk_python/py.typed"]
+include = ["gotit_api_python_sdk/py.typed"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -35,7 +35,7 @@ extension-pkg-whitelist = "pydantic"
 
 [tool.mypy]
 files = [
-  "gotit_api_sdk_python",
+  "gotit_api_python_sdk",
   #"test",  # auto-generated tests
   "tests", # hand-written tests
 ]
@@ -73,7 +73,7 @@ disallow_any_generics = true
 
 [[tool.mypy.overrides]]
 module = [
-  "gotit_api_sdk_python.configuration",
+  "gotit_api_python_sdk.configuration",
 ]
 warn_unused_ignores = true
 strict_equality = true

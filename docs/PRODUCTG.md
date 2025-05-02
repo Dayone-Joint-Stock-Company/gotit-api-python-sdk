@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from gotit_api_sdk_python.models.productg import PRODUCTG
+from gotit_api_python_sdk.models.productg import PRODUCTG
 
 # TODO update the JSON string below
 json = "{}"

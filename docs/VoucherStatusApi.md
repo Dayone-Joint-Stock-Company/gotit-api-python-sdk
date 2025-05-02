@@ -1,4 +1,4 @@
-# gotit_api_sdk_python.VoucherStatusApi
+# gotit_api_python_sdk.VoucherStatusApi
 
 All URIs are relative to *https://api-biz-stg.gotit.vn*
 
@@ -18,22 +18,22 @@ Check voucher status
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.vouchercheckresponse import VOUCHERCHECKRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.vouchercheckresponse import VOUCHERCHECKRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.VoucherStatusApi(api_client)
+    api_instance = gotit_api_python_sdk.VoucherStatusApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
     ref_id = 'voucher_0711_102' # str | Transaction RefId
     is_exclude_store_list_info = true # bool | Exclude store list information (optional)

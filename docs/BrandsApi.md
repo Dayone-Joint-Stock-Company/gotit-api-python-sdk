@@ -1,4 +1,4 @@
-# gotit_api_sdk_python.BrandsApi
+# gotit_api_python_sdk.BrandsApi
 
 All URIs are relative to *https://api-biz-stg.gotit.vn*
 
@@ -20,22 +20,22 @@ Returns brand detail data master
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.branddetailresponse import BRANDDETAILRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.branddetailresponse import BRANDDETAILRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.BrandsApi(api_client)
+    api_instance = gotit_api_python_sdk.BrandsApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
 
     try:
@@ -92,22 +92,22 @@ Returns brand detail data master
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.branddetailresponse import BRANDDETAILRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.branddetailresponse import BRANDDETAILRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.BrandsApi(api_client)
+    api_instance = gotit_api_python_sdk.BrandsApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
     id = 46 # int | Brand Id
 
@@ -166,22 +166,22 @@ Retrieve a list of brands
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.brandsresponse import BRANDSRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.brandsresponse import BRANDSRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.BrandsApi(api_client)
+    api_instance = gotit_api_python_sdk.BrandsApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
 
     try:

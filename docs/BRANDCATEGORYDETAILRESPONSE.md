@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from gotit_api_sdk_python.models.brandcategorydetailresponse import BRANDCATEGORYDETAILRESPONSE
+from gotit_api_python_sdk.models.brandcategorydetailresponse import BRANDCATEGORYDETAILRESPONSE
 
 # TODO update the JSON string below
 json = "{}"

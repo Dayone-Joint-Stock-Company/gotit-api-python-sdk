@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from gotit_api_sdk_python.models.requestcreatevoucherlinke import REQUESTCREATEVOUCHERLINKE
+from gotit_api_python_sdk.models.requestcreatevoucherlinke import REQUESTCREATEVOUCHERLINKE
 
 # TODO update the JSON string below
 json = "{}"

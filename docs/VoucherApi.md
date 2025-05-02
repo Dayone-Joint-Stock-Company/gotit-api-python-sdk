@@ -1,4 +1,4 @@
-# gotit_api_sdk_python.VoucherApi
+# gotit_api_python_sdk.VoucherApi
 
 All URIs are relative to *https://api-biz-stg.gotit.vn*
 
@@ -20,25 +20,25 @@ Create voucher link e
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.requestcreatevoucherlinke import REQUESTCREATEVOUCHERLINKE
-from gotit_api_sdk_python.models.vouchereresponse import VOUCHERERESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.requestcreatevoucherlinke import REQUESTCREATEVOUCHERLINKE
+from gotit_api_python_sdk.models.vouchereresponse import VOUCHERERESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.VoucherApi(api_client)
+    api_instance = gotit_api_python_sdk.VoucherApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
-    requestcreatevoucherlinke = gotit_api_sdk_python.REQUESTCREATEVOUCHERLINKE() # REQUESTCREATEVOUCHERLINKE |  (optional)
+    requestcreatevoucherlinke = gotit_api_python_sdk.REQUESTCREATEVOUCHERLINKE() # REQUESTCREATEVOUCHERLINKE |  (optional)
 
     try:
         # Create voucher link e
@@ -95,25 +95,25 @@ Create voucher link g
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.requestcreatevoucherlinkg import REQUESTCREATEVOUCHERLINKG
-from gotit_api_sdk_python.models.vouchergresponse import VOUCHERGRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.requestcreatevoucherlinkg import REQUESTCREATEVOUCHERLINKG
+from gotit_api_python_sdk.models.vouchergresponse import VOUCHERGRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.VoucherApi(api_client)
+    api_instance = gotit_api_python_sdk.VoucherApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
-    requestcreatevoucherlinkg = gotit_api_sdk_python.REQUESTCREATEVOUCHERLINKG() # REQUESTCREATEVOUCHERLINKG |  (optional)
+    requestcreatevoucherlinkg = gotit_api_python_sdk.REQUESTCREATEVOUCHERLINKG() # REQUESTCREATEVOUCHERLINKG |  (optional)
 
     try:
         # Create voucher link g
@@ -170,25 +170,25 @@ Create voucher link v
 
 
 ```python
-import gotit_api_sdk_python
-from gotit_api_sdk_python.models.requestcreatevoucherlinkv import REQUESTCREATEVOUCHERLINKV
-from gotit_api_sdk_python.models.vouchervresponse import VOUCHERVRESPONSE
-from gotit_api_sdk_python.rest import ApiException
+import gotit_api_python_sdk
+from gotit_api_python_sdk.models.requestcreatevoucherlinkv import REQUESTCREATEVOUCHERLINKV
+from gotit_api_python_sdk.models.vouchervresponse import VOUCHERVRESPONSE
+from gotit_api_python_sdk.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api-biz-stg.gotit.vn
 # See configuration.py for a list of all supported configuration parameters.
-configuration = gotit_api_sdk_python.Configuration(
+configuration = gotit_api_python_sdk.Configuration(
     host = "https://api-biz-stg.gotit.vn"
 )
 
 
 # Enter a context with an instance of the API client
-with gotit_api_sdk_python.ApiClient(configuration) as api_client:
+with gotit_api_python_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = gotit_api_sdk_python.VoucherApi(api_client)
+    api_instance = gotit_api_python_sdk.VoucherApi(api_client)
     x_gi_authorization = 'API key GotIt provided' # str | Authorization
-    requestcreatevoucherlinkv = gotit_api_sdk_python.REQUESTCREATEVOUCHERLINKV() # REQUESTCREATEVOUCHERLINKV |  (optional)
+    requestcreatevoucherlinkv = gotit_api_python_sdk.REQUESTCREATEVOUCHERLINKV() # REQUESTCREATEVOUCHERLINKV |  (optional)
 
     try:
         # Create voucher link v

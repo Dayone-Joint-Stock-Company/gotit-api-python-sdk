@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from gotit_api_sdk_python.models.vouchersendsmsschema import VOUCHERSENDSMSSCHEMA
+from gotit_api_python_sdk.models.vouchersendsmsschema import VOUCHERSENDSMSSCHEMA
 
 # TODO update the JSON string below
 json = "{}"

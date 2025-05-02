@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from gotit_api_sdk_python.models.usagemethodschema import USAGEMETHODSCHEMA
+from gotit_api_python_sdk.models.usagemethodschema import USAGEMETHODSCHEMA
 
 # TODO update the JSON string below
 json = "{}"
