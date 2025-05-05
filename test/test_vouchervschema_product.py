@@ -15,7 +15,7 @@
 
 import unittest
 
-from gotit_api_sdk_python.models.vouchervschema_product import VOUCHERVSCHEMAProduct
+from gotit_api_python_sdk.models.vouchervschema_product import VOUCHERVSCHEMAProduct
 
 class TestVOUCHERVSCHEMAProduct(unittest.TestCase):
     """VOUCHERVSCHEMAProduct unit test stubs"""
@@ -43,7 +43,7 @@ class TestVOUCHERVSCHEMAProduct(unittest.TestCase):
                 brand_nm = 'Got It_Multi',
                 brand_service_guide = '<ul>\n\t<li>Sử dụng tương đương tiền mặt. Bạn có thể thanh toán thêm phần chênh lệch (nếu có)</li>\n\t<li>Dùng thanh toán tại cửa hàng hoặc mua hàng qua web/app/hotline, tùy từng thương hiệu</li>\n\t<li>Có thể áp dụng nhiều thẻ quà tặng cho một lần thanh toán tại hầu hết thương hiệu liên kết</li>\n\t<li>Mỗi thẻ quà tặng có quy định thời hạn sử dụng nhất định</li>\n</ul>',
                 link = 'https://v-stg.gotit.vn/phong-cach-song/got-it-multi/the-qua-tang-1541.html',
-                price = gotit_api_sdk_python.models.product_price_schema.PRODUCT_PRICE_SCHEMA(
+                price = gotit_api_python_sdk.models.product_price_schema.PRODUCT_PRICE_SCHEMA(
                     price_id = 12258, 
                     price_nm = '1', 
                     price_value = 735000, ),
@@ -51,7 +51,7 @@ class TestVOUCHERVSCHEMAProduct(unittest.TestCase):
                 terms = '<p>- Phiếu qu&agrave; tặng điện tử được cung cấp bởi Got It.</p>\r\n\r\n<p>- Một ho&aacute; đơn c&oacute; thể sử dụng nhiều Phiếu qu&agrave; tặng, mỗi Phiếu qu&agrave; tặng c&oacute; gi&aacute; trị sử dụng 01 lần theo thời hạn quy định.</p>\r\n\r\n<p>- Vui l&ograve;ng xuất tr&igrave;nh Phiếu qu&agrave; tặng trước khi thực hiện thanh to&aacute;n.</p>\r\n\r\n<p>- Phiếu qu&agrave; tặng c&oacute; thể &aacute;p dụng cho c&aacute;c sản phẩm hoặc dịch vụ kh&aacute;c c&ugrave;ng gi&aacute; trị khi sản phẩm/dịch vụ tr&ecirc;n Phiếu qu&agrave; tặng đ&atilde; hết h&agrave;ng.</p>\r\n\r\n<p>- Phiếu qu&agrave; tặng kh&ocirc;ng c&oacute; gi&aacute; trị quy đổi th&agrave;nh tiền mặt hoặc ho&agrave;n lại tiền hoặc b&aacute;n lại. Kh&aacute;ch h&agrave;ng sẽ trả th&ecirc;m tiền nếu sử dụng qu&aacute; gi&aacute; trị Phiếu qu&agrave; tặng.</p>\r\n\r\n<p>- Kh&aacute;ch h&agrave;ng tự bảo mật th&ocirc;ng tin m&atilde; qu&agrave; tặng sau khi mua.</p>\r\n\r\n<p>- M&atilde; qu&agrave; tặng sẽ kh&ocirc;ng được ho&agrave;n lại khi bị mất hoặc Đ&atilde; sử dụng.</p>\r\n\r\n<p>- Kh&aacute;ch h&agrave;ng vui l&ograve;ng li&ecirc;n hệ với nh&agrave; cung cấp khi c&oacute; thắc mắc hoặc khiếu nại li&ecirc;n quan đến chất lượng của sản phẩm/dịch vụ theo hotline 1900558820 hoặc support@gotit.vn.</p>\r\n',
                 product_type = 'c',
                 store_list = [
-                    gotit_api_sdk_python.models.store_product_schema.STORE_PRODUCT_SCHEMA(
+                    gotit_api_python_sdk.models.store_product_schema.STORE_PRODUCT_SCHEMA(
                         store_id = 3002, 
                         store_nm = 'anh16', 
                         store_addr = 'address_vi', 

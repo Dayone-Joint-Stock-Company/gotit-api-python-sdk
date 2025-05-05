@@ -15,7 +15,7 @@
 
 import unittest
 
-from gotit_api_sdk_python.models.productsalldetail import PRODUCTSALLDETAIL
+from gotit_api_python_sdk.models.productsalldetail import PRODUCTSALLDETAIL
 
 class TestPRODUCTSALLDETAIL(unittest.TestCase):
     """PRODUCTSALLDETAIL unit test stubs"""
@@ -51,14 +51,14 @@ class TestPRODUCTSALLDETAIL(unittest.TestCase):
                 category_img = 'https://img.gotit.vn/category/got-it-da-nang.png',
                 product_type = 'c',
                 prices = [
-                    gotit_api_sdk_python.models.product_price_schema.PRODUCT_PRICE_SCHEMA(
+                    gotit_api_python_sdk.models.product_price_schema.PRODUCT_PRICE_SCHEMA(
                         price_id = 12258, 
                         price_nm = '1', 
                         price_value = 735000, )
                     ],
                 link = 'https://v-stg.gotit.vn/got-it-da-nang/got-it-multi/the-qua-tang-da-nang-1408.html',
                 store_list = [
-                    gotit_api_sdk_python.models.store_product_schema.STORE_PRODUCT_SCHEMA(
+                    gotit_api_python_sdk.models.store_product_schema.STORE_PRODUCT_SCHEMA(
                         store_id = 3002, 
                         store_nm = 'anh16', 
                         store_addr = 'address_vi', 
@@ -71,7 +71,7 @@ class TestPRODUCTSALLDETAIL(unittest.TestCase):
                         district = 'Sóc Sơn', )
                     ],
                 total_store = 1,
-                store_pagination = gotit_api_sdk_python.models.paging_schema.PAGING_SCHEMA(
+                store_pagination = gotit_api_python_sdk.models.paging_schema.PAGING_SCHEMA(
                     page_size = 1, 
                     page = 1, 
                     total_page = 1, )

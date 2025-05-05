@@ -15,7 +15,7 @@
 
 import unittest
 
-from gotit_api_sdk_python.models.pagingschema import PAGINGSCHEMA
+from gotit_api_python_sdk.models.pagingschema import PAGINGSCHEMA
 
 class TestPAGINGSCHEMA(unittest.TestCase):
     """PAGINGSCHEMA unit test stubs"""
